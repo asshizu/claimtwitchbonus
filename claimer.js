@@ -13,7 +13,9 @@ function claim() {
   }
 }
 
-while (true) {
+while (1 < 2) {
   claim();
-  await sleep(6 * 60);
+  await sleep(5.5 * 60);
 }
+
+console.log("Quit do to unknown error.")
